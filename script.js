@@ -42,9 +42,9 @@ const data = [
 // Array of background colors corresponding to each slide
 const backgroundColors = [
   "linear-gradient(to right top, #f5ae70, #f5af71, #f5af73, #f5b074, #f5b075, #f6b47c, #f7b882, #f8bc89, #fac497, #fbcda5, #fdd5b3, #feddc1)", // Slide 0
-  "linear-gradient(to right top, #3cae62, #3eb064, #40b167, #42b369, #44b56b, #49b970, #4ebe74, #53c279, #5bca81, #64d289, #6cda91, #74e299)", // Slide 1
-  "linear-gradient(to right top, #f45f5b, #f56761, #f76e67, #f8766d, #f97d73, #fa8378, #fa897c, #fb8f81, #fc9585, #fd9b8a, #fda18f, #fea794)", // Slide 2
-  "linear-gradient(to right top, #b5b7b7, #b6b8b8, #b7bab9, #b8bbbb, #b9bcbc, #bdbfc0, #c0c3c3, #c4c6c7, #cbcccd, #d2d3d4, #d9d9da, #e0e0e0)", // Slide 3
+  "linear-gradient(to right top, #b5b7b7, #b6b8b8, #b7bab9, #b8bbbb, #b9bcbc, #bdbfc0, #c0c3c3, #c4c6c7, #cbcccd, #d2d3d4, #d9d9da, #e0e0e0)", // Slide 1
+  "linear-gradient(to right top, #3cae62, #3eb064, #40b167, #42b369, #44b56b, #49b970, #4ebe74, #53c279, #5bca81, #64d289, #6cda91, #74e299)", // Slide 2
+  "linear-gradient(to right top, #f45f5b, #f56761, #f76e67, #f8766d, #f97d73, #fa8378, #fa897c, #fb8f81, #fc9585, #fd9b8a, #fda18f, #fea794)", // Slide 3
 ];
 
 const heading = document.querySelector(".heading");
