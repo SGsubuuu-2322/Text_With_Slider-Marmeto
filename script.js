@@ -80,10 +80,9 @@ document.addEventListener("DOMContentLoaded", function () {
   new Splide(".splide", {
     type: "loop",
     perPage: 1,
-    autoplay: false,
+    autoplay: true,
     interval: 3000,
     speed: 800,
-    pagination: true,
     arrows: true,
     pagination: false,
     type: "fade",
