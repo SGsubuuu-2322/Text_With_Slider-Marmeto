@@ -4,9 +4,78 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Text_With_Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    "
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <img src="./assets/Logo (1).png" alt="" />
+        </div>
+
+        <ul class="nav-list">
+          <li>Shop</li>
+          <li>Brands</li>
+          <li>Contact us</li>
+          <li><button class="btn">Sign up</button></li>
+        </ul>
+      </nav>
+      <main>
+        <div class="details-box">
+          <div class="details">
+            <h1 class="heading">Exquisite Watches</h1>
+            <h3 class="sub-heading">Gold Luxury, <span>Choose Us</span></h3>
+            <p class="desc">
+              Discover the Perfect Watch for Every Occasion and Elevate Your
+              style with Timeless Elegance and Precision Craftsmanship - watch
+            </p>
+            <strong class="pricing">$499.00</strong>
+          </div>
+          <div class="icons">
+            <div class="icon">
+              <img src="./assets/facebook.png" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./assets/twitter.png" alt="" />
+            </div>
+            <div class="icon">
+              <img src="./assets/youtube.png" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="img-box">
+          <section class="splide full-length" aria-label="Watch Image Slider">
+            <div class="splide__track full-length">
+              <ul class="splide__list full-length"></ul>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
